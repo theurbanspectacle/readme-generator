@@ -26,4 +26,4 @@ manual testing
 
 ## View screen recording
 
-https://drive.google.com/file/d/1RP5e_QgG4ZoXhUtsp1bhzvCWy4Cp3o5O/view
+https://drive.google.com/file/d/1T1I-wD1OpsziMDmthG2s4hJXrL1ca2FF/view

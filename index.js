@@ -1,4 +1,5 @@
 const inquirer = require("inquirer"); 
+const fs = require("fs"); 
 
 const licenses = {
     MIT: {
@@ -90,10 +91,15 @@ const questions = [
         message: 'How do you run test?',
         name: 'whatTest',
 	},
+    {
+        message: 'Name of the file?',
+        name: 'fileName',
+        default: 'README_SAMPLE.md',
+	},
 ];
 
 const createReadme = (answers) => {
-    const {projectName, projectDescription, motivation, whyBuild, whatSolve, whatLearn, whatInstruct, whatUsage, howRun, whoCredit, whatLicense, whatFeatures, whatGithub, whatEmail, whatTest} = answers;
+    const {projectName, projectDescription, motivation, whyBuild, whatSolve, whatLearn, whatInstruct, whatUsage, howRun, whoCredit, whatLicense, whatFeatures, whatGithub, whatEmail, whatTest, fileName} = answers;
     const currentLicense = licenses[whatLicense];
 
     let readMe = `# ${projectName}
@@ -156,7 +162,7 @@ Reach me via [GitHub](https://github.com/${whatGithub}) or [${whatEmail}](mailto
     `;
 
     readMe = readMe.replaceAll('\n\n\n', '\n\n');
-    console.log(readMe);
+    fs.writeFileSync(fileName, readMe)
 }
 
 inquirer.prompt(questions).then(data => {

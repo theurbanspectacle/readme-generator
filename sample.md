@@ -1,15 +1,15 @@
-# Example Test
+# README Generator
 
 ![MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
 
-Testing for criteria
+Generate README
 
-- Testing 
-- Testing
-- Testing
-- Testing
+- To Generate a README
+- To Generate a README
+- Generate README
+- Yes
 
 ## Table of Contents
 
@@ -24,19 +24,19 @@ Testing for criteria
 
 ## Installation
 
-Testing
+None
 
 ## Usage
 
-Testing
+Generate README
 
 ## How to run it
 
-Testing
+`node index.js`
 
 ## Credits
 
-Testing
+None
 
 ## License
 
@@ -46,12 +46,13 @@ The MIT license gives users express permission to reuse code for any purpose, so
 
 ## Features
 
-Testing
+None
 
 ## Tests
 
-Testing 
+manual testing
 
 ## Questions
 
-Reach me via [GitHub](https://github.com/Testing) or [Testing](mailto:Testing).
+Reach me via [GitHub](https://github.com/theurbanspectacle) or [myrealemail@gmail.com](mailto:myrealemail@gmail.com).
+    
